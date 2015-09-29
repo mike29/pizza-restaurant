@@ -10,13 +10,14 @@ background:#2B2B2B;
 	margin-right:auto;
 	background:black;
 	margin-bottom:5px;
+	height: 100px;
 
 }
 #thehead {
 	color:white;
 	font-family:arial;
 	position: relative; 
-	width: 100%;
+	width: 900px;
 
 }
 h1 { 
@@ -61,12 +62,12 @@ h1 {
 .sidepicleft{
 	float: left;
 	margin-left:-260px;
-	margin-top:-280px;
+	margin-top:-225px;
 }
 .sidepicright{
 	float:right;
 	margin-right:-260px;
-	margin-top:-280px;
+	margin-top:-225px;
 }
 
 .midsection h2{
