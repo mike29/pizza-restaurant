@@ -1,0 +1,152 @@
+body {
+
+background:#2B2B2B; 
+
+}
+
+#thehead{
+	width:1080px;
+	margin-left:auto;
+	margin-right:auto;
+	background:black;
+	margin-bottom:6px;
+	height: 100px;
+
+}
+#thehead {
+	color:white;
+	font-family:arial;
+	position: relative; 
+	width: 900px;
+
+}
+h1 { 
+   position: absolute; 
+   top: -34px; 
+   left: 0; 
+   width: 100%; 
+   padding:12px;
+   font-size:43px;
+   
+}
+#navigator ul li{
+	color:white;
+	font-family:arial, verdana, sans-serif;
+	margin-left: 96px;
+	text-decoration: none;
+	font-size:14px;
+	display:inline-block;
+	/*list-style:none;*/
+	
+
+}
+#container {
+	width:1080px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#navigator ul {
+	background: black;
+	text-decoration: none;
+
+}
+.bannertop {	
+	background: black;
+	width:1080px;
+	margin-left:auto;
+	margin-right:auto;
+	height:480px; 
+}
+.sidepicleft{
+	float: left;
+	margin-left:-260px;
+	margin-top:-225px;
+}
+.sidepicright{
+	float:right;
+	margin-right:-260px;
+	margin-top:-225px;
+}
+
+.midsection h2{
+color:white;
+padding:12px;
+width:480px;
+font-family:arial;
+font-size:25px;
+
+
+}
+.midsection p{
+color:white;
+padding:12px;
+width:480px;
+padding-top:0px;
+font-family:arial;
+font-size:14px;
+
+
+
+}
+.frontmenu {
+	width:276px;
+	height:156px; 
+	background:#C63D0F; 
+	float:left; 
+	margin-left: 36px;
+	margin-top: 12px;
+}
+
+.frontdisplay {	
+	background: #C63D0F;
+	width:230px;
+	height:130px; 
+	float:left; 
+	margin-left:75px;
+	margin-top: 10px;
+}
+.frontorder {	
+	background: #C63D0F;
+	width:276px;
+	height:156px; 
+	float:left;
+	margin-left:90px;
+	margin-top: 12px;
+
+}
+.bannerzone{	
+	background: black;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bannerleft{	
+	background: red;
+	width:180px;
+	height:480px;
+}
+
+.bannerright{	
+	background: red;
+	width:180px;
+	height:480px;
+	margin-top:120px;
+}
+
+
+
+#footer {
+	background: black; 
+	margin-top: 30px;
+	width:1080px;
+	height:24px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.orderzone{
+	background-color: black;
+	height: 180px;
+	width: 1080px;
+}
