@@ -1,7 +1,5 @@
+	sum = 0
 	
-	
-	
-	var selectedFoodValue = foods.options[foods.selectedIndex].value;
 	
  function choosedFood() {
 			var foods = document.getElementById("foods");
@@ -17,20 +15,20 @@
 						display.innerHTML = "Please Select you pizza from the menu ";
 						
 						}
-					if (selectedFoodValue == 1) {
-							display.innerHTML = '<img src="orangepizza.jpg" id="orange" / alt="orange pizza" height="120" width="160">' + "<br/>" + " APPLE PIZZA" + "</br>" +
+					if (selectedFoodValue == 1) {    //'<img src="orangepizza.jpg" id="orange" / alt="orange pizza" height="120" width="160">' +
+							display.innerHTML = " APPLE PIZZA" +  "</br>" +
 							"Ingridents:<br/> Orange, Onion, Ginger, Vodka and some other stuff " + "<br/>PICE:200 kr";
 						}
-					if (selectedFoodValue == 2){
-							display.innerHTML =  '<img src="applepizza.jpg" / alt="apple pizza" height="120" width="160">' + "</br>" + "ORANGE PIZZA" + "<br/>" +
+					if (selectedFoodValue == 2){    // '<img src="applepizza.jpg" / alt="apple pizza" height="120" width="160">' + "<br/>" +
+							display.innerHTML =  "ORANGE PIZZA" +
 							"Ingridents:<br/> Apple, Onion, Ginger, Vodka and some other stuff "  + "<br/>PRICE:200 kr";
 						}
 					if (selectedFoodValue == 3){
-							display.innerHTML =  '<img src="pineapplepizza.jpg" / alt="pineapple pizza" height="120" width="160">' + "</br>" + "PINEAPPLE PIZZA" + 
+							display.innerHTML =   "PINEAPPLE PIZZA" + '<img src="pineapplepizza.jpg" / alt="pineapple pizza" height="120" width="160">'
 							"<br/>" + "Ingridents:<br/> Pineapple, Onion, Ginger, Vodka and some other stuff "  + "<br/>PRICE:200 kr";
 						}
 					if (selectedFoodValue == 4){
-							display.innerHTML =  '<img src="chocolatepizza.jpg" / alt="chocolate pizza" height="120" width="160">' + "<br/>" +"CHOCO PIZZA" + "</br>" + 
+							display.innerHTML =  "CHOCO PIZZA" + '<img src="chocolatepizza.jpg" / alt="chocolate pizza" height="120" width="160">'+"</br>" + 
 							"Ingridents:<br/> Chocolate, Onion, Ginger, Vodka and some other stuff"  + "<br/>PRICE:200 kr";
 						}
 					
@@ -45,17 +43,39 @@
 							}
 							*/
 
-function orderedFood (){     //causing problem u can delete it or fix it  for the page to work
-//choosedfood();
-//if (selectedFoodValue == 1)&&               // brukern click på bestill skal du bekrefte bestilling med text og vise det maten han bestilt
+function orderedFood (){  
+			var foods = document.getElementById("foods");
+			var bestill = foods.options[foods.selectedIndex].value;
 
-	var bestill = document.getElementById("mottatBestiling");
-		if (selectedFood == true) {                                             //if only  food is selected order will be accepted 
-			mottatBestilling.innerHTML = "BESTIILING MOTTAT"; 
-	}
-	else {
+			var display = document.getElementById("showorder");
 
-		var bestill = document.getElementById("velg mat");
-	}
-}
+
+						//document.getElementById("list").innerHTML = "Do har valgt " + selectedFood + " pizza";
+					if (selectedFoodValue == 5) {
+						display.innerHTML = "Please Select you pizza from the menu ";
+						
+						}
+					if (selectedFoodValue == 1) {
+							sum += 200
+							display.innerHTML += " APPLE PIZZA"+"<br />";
+									
+						}
+					if (selectedFoodValue == 2){
+							sum += 200
+							display.innerHTML += "ORANGE PIZZA"+"<br />";
+						
+						}
+					if (selectedFoodValue == 3){
+							sum += 200
+							display.innerHTML += "PINEAPPLE PIZZA"+"<br />";
+							
+							
+						}
+					if (selectedFoodValue == 4){
+							sum += 200
+							display.innerHTML += "CHOCO PIZZA"+"<br />";
+
+						}
+					document.getElementById("summer").innerHTML = "Sum: "+sum;
+				}
 
