@@ -58,7 +58,6 @@ h1 {
 	margin-left:auto;
 	margin-right:auto;
 	height:400px; 
-    
 }
 .sidepicleft{
 	float: left;
@@ -153,6 +152,11 @@ select {
 	height:20px;
 	margin-left: auto;
 	margin-right: auto;
+	color:white;
+	text-align:center;
+	font-family:verdana;
+	font-size:14px;
+	
 	}
 
 .orderzone{
@@ -160,11 +164,23 @@ select {
 	height: 150px;
 	width: 900px;
 }
+#pizzameny {
 
-#pizzameny{
-overflow: scroll;
-background-color: dimgrey;
-color:white;
-height: 525px;
-float:left;
+	color:white;
+	font-family:verdana;
+	font-size: 13px;
+	background-color:black;
+	padding:15px;
+
 }
+#containerformeny {
+
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+
+
+}
+
+
+
