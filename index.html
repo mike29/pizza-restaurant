@@ -2,7 +2,7 @@
 <html>
 <head>
 
-
+<script src="bestilling.js"></script>
 <title>pizza wow test </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" type="text/css" href="mystyle.css"/>
@@ -50,16 +50,27 @@
 	</div>   <!-- closes the contents in the middel-->
 	<div class="orderzone">
 		<div class="frontmenu">
-				<P>FRONT PIZZA MENY</p>
+			<form>
+				SELECT YOUR FAV.PIZZA:<br/>
+				<select size="4" id="foods">
+					  <option id="apple" selected onclick="choosedFood()" value="1">Apple pizza</option>
+					  <option id="orange" onclick="choosedFood()" value="2">Orange pizza</option>
+					  <option id="pineapple" onclick="choosedFood()" value="3">Pineapple pizza</option>
+					  <option id="chocolate" onclick="choosedFood()" value="4">Choco pizza</option>
+				</select>
+			</form>
 	
 		</div>
 		
 		<div class="frontdisplay">
-			<P>FRONT BESKRIVELSE</p>
+			<div id="mottatBestilling"></div>
+
+    <p id="list"></p>
+	<div id ="display"></div>
 	
 		</div>
 		<div class="frontorder">
-			<P>FRONT BESTILL</p>
+			<button id="bestill" onclick="orderedFood()" value ="5"> BESTILL</button>
 	
 		</div>
 			
