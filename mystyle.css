@@ -58,6 +58,7 @@ h1 {
 	margin-left:auto;
 	margin-right:auto;
 	height:400px; 
+    
 }
 .sidepicleft{
 	float: left;
@@ -158,4 +159,12 @@ select {
 	background-color: black;
 	height: 150px;
 	width: 900px;
+}
+
+#pizzameny{
+overflow: scroll;
+background-color: dimgrey;
+color:white;
+height: 525px;
+float:left;
 }

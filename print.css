@@ -30,3 +30,11 @@ header h1, header nav,footer, img, navigator
 {
 display: none;
 }
+
+p{
+text-align: center;
+}
+
+title {
+    font-size: 28px;
+}
