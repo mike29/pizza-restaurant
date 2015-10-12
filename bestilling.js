@@ -1,7 +1,5 @@
-	
-	
 	sum = 0
-	var selectedFoodValue = foods.options[foods.selectedIndex].value;
+	
 	
  function choosedFood() {
 			var foods = document.getElementById("foods");
