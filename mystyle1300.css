@@ -96,13 +96,14 @@ font-size:12px;
 	float:left; 
 	margin-left: 25px;
 	margin-top: 8px;
+	font-size:12px;
 }
 select {
 	color:black;
 	font-family: verdana;
 	font-size:15px;
 	width:196px;
-	height:110px; 
+	height:105px; 
 	background-color:#C63D0F;
 }
 
