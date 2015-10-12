@@ -1,6 +1,6 @@
 	
 	
-	
+	sum = 0
 	var selectedFoodValue = foods.options[foods.selectedIndex].value;
 	
  function choosedFood() {
@@ -45,17 +45,39 @@
 							}
 							*/
 
-function orderedFood (){     //causing problem u can delete it or fix it  for the page to work
-//choosedfood();
-//if (selectedFoodValue == 1)&&               // brukern click på bestill skal du bekrefte bestilling med text og vise det maten han bestilt
+function orderedFood (){  
+			var foods = document.getElementById("foods");
+			var bestill = foods.options[foods.selectedIndex].value;
 
-	var bestill = document.getElementById("mottatBestiling");
-		if (selectedFood == true) {                                             //if only  food is selected order will be accepted 
-			mottatBestilling.innerHTML = "BESTIILING MOTTAT"; 
-	}
-	else {
+			var display = document.getElementById("showorder");
 
-		var bestill = document.getElementById("velg mat");
-	}
-}
+
+						//document.getElementById("list").innerHTML = "Do har valgt " + selectedFood + " pizza";
+					if (selectedFoodValue == 5) {
+						display.innerHTML = "Please Select you pizza from the menu ";
+						
+						}
+					if (selectedFoodValue == 1) {
+							sum += 200
+							display.innerHTML += " APPLE PIZZA"+"<br />";
+									
+						}
+					if (selectedFoodValue == 2){
+							sum += 200
+							display.innerHTML += "ORANGE PIZZA"+"<br />";
+						
+						}
+					if (selectedFoodValue == 3){
+							sum += 200
+							display.innerHTML += "PINEAPPLE PIZZA"+"<br />";
+							
+							
+						}
+					if (selectedFoodValue == 4){
+							sum += 200
+							display.innerHTML += "CHOCO PIZZA"+"<br />";
+
+						}
+					document.getElementById("summer").innerHTML = "Sum: "+sum;
+				}
 
