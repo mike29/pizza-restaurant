@@ -1,0 +1,32 @@
+header nav, footer{
+display: none;
+
+}
+
+img {
+max-width: 500px;
+}
+
+@page{
+margin: 0,5cm;
+}
+
+h1 {
+font-size: 24pt;
+}
+
+h2 {
+font-size: 14pt;
+margin-top: 25px;
+}
+
+blockquote, ul{
+margin: 0;
+}
+
+/*ul{list-style: none}*/
+
+header h1, header nav,footer, img, navigator
+{
+display: none;
+}
