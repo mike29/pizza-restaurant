@@ -97,6 +97,7 @@ font-size:14px;
 	float:left; 
 	margin-left: 36px;
 	margin-top: 12px;
+	overflow: scroll;
 }
 
 .frontdisplay {	
