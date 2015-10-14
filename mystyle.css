@@ -123,7 +123,7 @@ select {
 	float:left;
 	margin-left:75px;
 	margin-top: 10px;
-
+	overflow: auto;
 }
 .frontorder p {
 	font-size: 14px;

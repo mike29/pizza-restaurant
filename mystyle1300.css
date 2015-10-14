@@ -122,6 +122,7 @@ select {
 	float:left;
 	margin-left:64px;
 	margin-top: 8px;
+	overflow: auto;
 
 }
 .frontorder p {
