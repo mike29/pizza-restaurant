@@ -97,6 +97,7 @@ font-size:14px;
 	float:left; 
 	margin-left: 36px;
 	margin-top: 12px;
+	overflow: scroll;
 }
 
 .frontdisplay {	
@@ -114,7 +115,11 @@ font-size:14px;
 	float:left;
 	margin-left:90px;
 	margin-top: 12px;
+	overflow: auto;
 
+}
+.frontorder p {
+	font-size: 17px;
 }
 .bannerzone{	
 	background: black;

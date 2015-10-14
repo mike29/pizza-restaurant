@@ -1,40 +1,43 @@
+@media print{
+    h2.h3: ;
+    page-break-before: always;
+    }
+
+@page :left {
+  margin-left: 5cm;
+  margin-right: 4cm;
+}
+
+@page :right {
+  margin-left: 4cm;
+  margin-right: 5cm;
+}
+
+@media all
+{
+.page-break { display:none; }
+}
+p{
+text-align: center;
+text-size: 32pt;
+}
+
+title {
+    font-size: 28px;
+}
+
 header nav, footer{
 display: none;
-
-}
-
-img {
-max-width: 500px;
-}
-
-@page{
-margin: 0,5cm;
-}
-
-h1 {
-font-size: 24pt;
-}
-
-h2 {
-font-size: 14pt;
-margin-top: 25px;
 }
 
 blockquote, ul{
 margin: 0;
 }
 
-/*ul{list-style: none}*/
+ul{list-style: none}
 
-header h1, header nav,footer, img, navigator
+#navigator
 {
 display: none;
 }
 
-p{
-text-align: center;
-}
-
-title {
-    font-size: 28px;
-}
