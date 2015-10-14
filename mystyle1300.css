@@ -103,7 +103,7 @@ select {
 	font-family: verdana;
 	font-size:15px;
 	width:196px;
-	height:105px; 
+	height:auto;
 	background-color:#C63D0F;
 }
 
