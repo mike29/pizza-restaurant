@@ -123,6 +123,9 @@ select {
 	margin-top: 8px;
 
 }
+.frontorder p {
+	font-size: 12px;
+}
 .bannerzone{	
 	background: black;
 	margin-left:auto;
