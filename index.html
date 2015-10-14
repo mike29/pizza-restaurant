@@ -3,12 +3,13 @@
 <head>
 
 <script src="bestilling.js"></script>
-<title>pizza wow test </title>
+<title>pizza wow </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" type="text/css" href="mystyle.css"/>
 <link rel="stylesheet" type="text/css" href="mystyle1300.css" media="(min-width: 901px) and (max-width: 1400px)"/>
 <link rel="stylesheet" type="text/css" href="mystyle1900.css" media="(min-width: 1750px)"/>
 <link rel="stylesheet" type="text/css" href="resmob.css" media="screen and (max-width: 900px)"/>
+<link rel="stylesheet" type="text/css" href="mindreresmob.css" media="screen and (max-width: 600px)"/>
 <link rel="stylesheet" type="text/css" href="print.css" media="print"> <!-- media print/all-->
 
 
@@ -16,17 +17,26 @@
 <body>
 	
 <header id="thehead">
-	<img src="header.jpg" alt="pizza wow header picture"/>
-	<a href="index.html"><h1>PIZZA <br/>WOW</h1></A>
+	<img id ="headpic"src="header.jpg" alt="pizza wow header picture"/>
+	<a href="index.html"><h1>PIZZA WOW</h1></a>
 </header>
+
 <div id="container">
+		
+		<a href="#navigator"> <img src="humberger.png" width = "40" id="burger1"  onclick="document.getElementById('navigator').style.transform = 'translateX(0%)'"> </img></a>
+		
 		<nav id="navigator">
-			<ul>
+			
+			<ul class="menulst">		
 				<li><a href="">RESTAURANT</a></li>
 				<li><a href="pizzameny.html">PIZZA MENY</a></li>
 				<li><a href="">OM OSS</a></li>
 				<li><a href="">HISTORIEN OM PIZZA WOW</a></li>
 			</ul>
+			
+				<p id="burger" onclick="document.getElementById('navigator').style.transform = 'translateX(-100%)'"> < BACK</p>
+			
+			
 		</nav>
 	<div class="bannertop">
 	
@@ -96,10 +106,10 @@
 				-->
 
 
-
-<footer id="footer">
+<div id="footer">
+<footer>
 	<P> this is a footer </p>
 </footer>
-
+</div>
 </body>
 </html>

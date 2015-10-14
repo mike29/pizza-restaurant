@@ -1,0 +1,151 @@
+body {
+
+background:orange; 
+
+}
+
+
+
+#headpic {
+	color:white;
+	font-family:arial, verdana;	
+	width:auto;
+	display:none;
+}
+#thehead {
+	color:white;
+	font-family:arial;
+	position: relative; 
+	width: auto;
+
+}
+#thehead h1{
+color:white;
+text-align:center;
+
+}
+
+
+.sidepicleft {
+display:none;
+}
+.sidepicright {
+display:none;
+}
+
+#container {
+	width:100%;
+	margin-left:0px;
+	margin-top:0px;
+
+}
+
+#navigator ul li{
+	
+	width : 100%;
+	margin-left:0px;
+	color:white;
+	
+
+	
+}
+#navigator  {
+
+	
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#222;
+	text-align:center;
+	transform:translateX(-140%);  
+	transition:transform 0.5s ease;
+	
+	
+}
+#burger1 {
+	
+	display:block;
+	position:fixed;
+	top:100px;
+	padding:10px;	
+	cursor:pointer;
+	
+
+}
+#burger {
+	font-size:10px;
+	font-family:verdana;
+	display:block;
+	position:fixed;
+	top:40px;
+	left:0;
+	color:white;
+	cursor:pointer;
+
+}
+
+.midsection p {
+	font-size: 10px;
+	color:white;
+	width: auto;
+}
+.midsection h2 {
+
+	width: auto;
+	font-size:15px;
+}
+
+
+.bannertop{
+width:80%;
+}
+.bannerdown{
+width:80%;
+}
+.orderzone {
+
+
+display:block;
+float:left;
+margin:auto;
+
+width:100%;
+margin-bottom:50px;
+background:transparent;
+
+
+}
+
+.frontmenu {
+
+	background:transparent;
+	float:left; 
+	width:100%;
+	margin-left:auto;
+
+
+}
+
+.frontdisplay {	
+
+	margin-left:auto;
+	float:left; 
+	
+}
+.frontorder {	
+	
+		margin-left:auto;
+	float:left;
+		height:20%;
+		text-align:center;
+
+}
+
+
+
+
+#footer {
+display:none;
+	
+	}

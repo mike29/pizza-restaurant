@@ -11,6 +11,8 @@ background:#2B2B2B;
 	background:black;
 	margin-bottom:5px;
 	height: 100px;
+	
+	
 
 }
 #thehead {
@@ -18,6 +20,20 @@ background:#2B2B2B;
 	font-family:arial;
 	position: relative; 
 	width: 900px;
+
+}
+
+#burger1 {
+	display:none
+
+}
+#burger {
+display:none;
+
+}
+
+#thehead h1{
+color:white;
 
 }
 h1 { 
@@ -33,12 +49,15 @@ h1 {
 	color:white;
 	font-family:arial, verdana, sans-serif;
 	margin-left: 80px;
-	text-decoration: none;
+
 	font-size:12px;
 	display:inline-block;
 	/*list-style:none;*/
-	
+}
 
+#navigator ul li a{
+	color:white;
+	text-decoration: none;
 }
 #container {
 	width:900px;
@@ -50,6 +69,10 @@ h1 {
 #navigator ul {
 	background: black;
 	text-decoration: none;
+
+}
+#navigator.mobnav li {
+	display:none;
 
 }
 .bannertop {	
